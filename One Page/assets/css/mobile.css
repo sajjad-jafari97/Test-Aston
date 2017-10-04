@@ -1,0 +1,69 @@
+
+@media screen and (max-width:480px){ /* you shoud write everything in this tag */
+    @-webkit-viewport{ 
+        width: device-width;
+     zoom:1;
+    }
+    
+    
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    header 
+    {
+        height: 45px;
+        width: 100vw;
+    }
+    .slide
+    {
+        width: 100vw;
+        height: 100px;
+    }
+    .animate{
+
+    width: 100px;
+    height: 150px;
+    animation: bounce 0.5s ease infinite alternate; 
+    background-image: url(../images/header%20logo%20rea%20small.svg) 0 0 no-repeat;
+
+} 
+    .container{
+    width: auto;
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    padding-top:60px;
+    background-image: url(../images/IMG_126561.jpg) 0 0 no-repeat fixed;
+}
+    .position{
+    height: 45px;
+    width: 159vw;
+}
+    .people{
+          width: 100vw;
+        height: 100px;
+        
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+
+
+}
+    .visu{
+    width: auto;
+    background: url(../images/435793.jpg) 0 0 no-repeat fixed;
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    padding-top: 244px;
+}
+
+
+}

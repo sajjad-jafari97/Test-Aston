@@ -1,0 +1,320 @@
+body{
+    background: black;
+    box-sizing: border-box;
+    overflow-y: ; /* rend impossible le scroll */
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, strong, ul, li,
+form, article, figure, footer, header,nav, section
+{  margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 46px;
+    position: fixed;
+    z-index: 1;
+    background-color:black;
+    overflow: hidden;
+}
+
+
+.container{
+    width: 1200px;
+    max-width: 1200px;
+    min-height: 980px;
+    padding-left: 181px;
+    height: 100vh;
+    background: black
+}
+
+.position{
+    margin-right: 242px;
+    float: left;
+    height: 46px;
+    width: 159px;
+}
+
+.slide{
+    width: auto;
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    padding-top:60px;
+    background-image: url(../images/IMG_126561.jpg)
+}
+
+.animate{
+    padding-right: 540px;
+
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    animation: bounce 0.5s ease infinite alternate; 
+} 
+
+@keyframes bounce{
+    from {transform: translateY(0);}
+    to   {transform: translateY(90px);}
+}
+
+.visu{
+    width: auto;
+    background: url(../images/435793.jpg) 0 0 no-repeat fixed;
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    padding-top: 244px;
+}
+
+a img{
+    border: none;
+}
+
+h1{
+    font-size: 63px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+h2{
+    font-size: 53px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+hr{
+    border: 3px solid blue;
+    width: 46px;
+    margin: auto;
+}
+
+nav{
+    width: 600px;
+    height: 46px;
+    float: left;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: block;
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    width: 120px;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: lightgrey;
+    border-bottom: 3px solid lightgrey;
+    transition: 1s;
+}
+
+
+
+
+.people{
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+
+
+}
+
+.eco{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    background: black;
+    background: url(../images/Mission2.jpg) 0 0 no-repeat fixed;
+    background-size: cover
+
+
+
+}
+.eco2{
+    background: url(../images/coding-924920_1920.jpg) 0 0 no-repeat fixed;
+}
+.mission{
+    height: 390px;
+    width: 160px;
+    float: left;
+    margin: 60px 200px 0px 0px;
+    padding-left: 30px;
+    box-sizing: border-box;
+
+}
+
+strong{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;}
+
+h1{font-size: 63px;
+    color:white;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+
+h3{font-size: 43px;
+    color:white;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+.vu h3{
+    color: white
+}
+
+.vu{width: 1080px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.visu2{ background: url(../images/Employee-flight-risk-1.jpg) 0 0 no-repeat fixed;
+    width: auto;
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-right: 500px
+
+
+}
+
+
+
+.people2{
+    color:gray;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
+.contain3{
+    width: 1000px;
+    height: auto;
+    margin: 250px auto;
+    padding-left: 250px
+
+}
+
+.conso{
+    width: 480px;
+    height: 150px;
+    background-color:gray;
+    border-radius: 10px;
+    float: left;
+    overflow: auto;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    box-sizing: border-box
+}
+
+
+#space{margin-right: 40px;}
+/*debut gallerie */
+
+.prevu{
+    display: inline-block;
+    width: 196px;
+    height: 210px;
+    position: relative;
+    background: darkgray;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -moz-transform: scale(1);
+
+    transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+
+
+}
+.prevu:hover{
+    box-shadow: 0px 0px 150px #000000; /* it's mean black color*/
+    background:white;
+    z-index: 2;
+
+    transform: scale(1.5);
+    -ms-transform: scale(1.5).5;
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+
+    transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+
+
+}
+
+.gallerie{width: 700px;
+    margin: auto
+
+
+}
+
+.contact{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10px;
+    background: black;
+}
+
+.footer{width: auto;
+    background: url(../images/androidpit-computer-developer-1.jpg) 0 0 no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    padding-top:250px ;}
+.btn{
+    padding: 15px 25px;
+    color:black;
+    background-color:green;
+    border: none;
+    font-weight: bold;
+    
+    
+    
+}
+
