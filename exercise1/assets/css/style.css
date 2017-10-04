@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    width: auto;
+    height: 30px;
+    background-color:#629B51;
+          
+   
+}
+
+
+header ul li{
+    display: block;
+    float: left;
+    padding: 0 27px;
+    margin-right: auto;
+    margin-top: 5px
+}
+
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:sans-serif
+}
+
+
+header ul li a:hover{
+    color:skyblue;
+    transition: 0.8s
+}
+
+
+header ul {
+    margin-right: auto
+}
+
+
+
+.titre{
+    width: 700px;
+    height: 30px;
+    margin-left: 600px;
+}
+
+
+.back-head{
+    width: 1000px;
+    height: 600px;
+    margin-left: 230px;
+    background: url(../images/bg_header.jpg) 0 0 no-repeat;
+    background-size:cover 
+    
+}
+
+
+
+.logo{
+    margin-left: 130px
+}
+
+
+.text{
+    width: 600px;
+    height: 100px;
+    margin: 130px 450px;
+    
+}
+.text img{
+    width: 500px
+}
+.dec{
+    width: 150px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left:360px;
+}
+.dec img{
+    width: 10px;
+    height: 10px;
+    margin-left: 0px;
+}
+.dec a h5 {
+    margin: -17px 14px 0;
+    color: green;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.dec a h5:hover{
+    color:#33FA2C;
+    transition:0.8s
+}
+.dec a{
+    text-decoration: none
+}
+
+
+.cup{
+    width: 300px;
+    height: 130px;
+    margin: -220px 150px 0
+}
+.information{
+    width: 850px;
+    height: 200px;
+    margin: 25px 150px auto
+}
+.info1, .info2, .info3{
+    display: inline-block;
+    text-align: center left
+}
+.info1{
+    width: 280px;
+    height: 190px;
+    margin-left: 2px
+}
+.info1 img, h2{
+    display: block;
+    float: left;
+    
+}
+.info1 img{
+    margin-left: 10px;
+    margin-top: -3px
+}
+.info1 p{
+    margin-top: 35px
+}
+
+.info2{
+    width: 280px;
+    height: 190px;
+}
+.info2 img, h2{
+    display: block;
+    float: left;
+    
+}
+.info2 p{
+    margin-top: 35px
+}
+.info3{
+    width: 280px;
+    height: 190px;
+}
+.info3 img, h2{
+    display: block;
+    float: left;
+    
+}
+.info3 p{
+    margin-top: 35px
+}
+aside{
+    width: 900px;
+    height: 400px;
+    margin: 40px 150px 0
+}
+.war1, .war2{
+    width: 440px;
+    height: 380px;
+    display: block;
+    float: left;
+    margin: auto 5px
+    
+    
+}
+.war1{
+    background: url(../images/bg_news.jpg) 0 0 no-repeat;
+}
+
+.war2{
+}
+
+
+.text-war1, .text-war2, .text-war3{
+    width: 430px;
+    height: 100px;
+    margin: 20px auto
+}
+
+.text-war1{
+    margin-top: 50px;
+    font-family:inherit
+}
+
+.text-war1 h4{
+    margin: -30px 55px
+}
+
+.text-war1 h5{
+    margin: 35px 57px
+}
+
+.text-war1 p{
+    margin: -30px 60px;
+    color: red
+}
+
+.text-war2{
+    margin: -4px 4px 0
+}
+
+.text-war2 h4{
+    margin: -30px 55px
+}
+
+.text-war2 h5{
+    margin: 35px 57px
+}
+.text-war2 p{
+    margin: -30px 60px;
+    color: red
+}
+.text-war3{
+}
+.text-war3 h4{
+    margin: -30px 55px
+}
+
+.text-war3 h5{
+    margin: 35px 57px
+}
+
+.text-war3 p{
+    margin: -30px 60px;
+    color: red
+}
+
+body{
+    background: url(../images/bg_body.jpg) 0 0 no-repeat;
+    background-size: cover
+}
+
+.fig1{
+    width: 50px;
+    height: 40px
+}
+
+.fig1 h1{
+    margin: -60px 10px 0
+}
+
+.letter-war2{
+    width:400px;
+    height: 50pw;
+    margin: auto 
+    
+}
+.letter-war2 h1{
+    text-align: left;
+    font-size: 24px;
+    font-family: sans-serif
+}
+.letter-war2 p{
+    margin-top: 10px
+}
+.letter-war3, .letter-war4{
+    width: 150px;
+    height: 70px;
+    display: block;
+    float: left;
+    margin: 10px 20px;
+    
+}
+.letter-war3{
+}
+.letter-war3 li a{
+    text-decoration: none;
+  
+    
+}
+.letter-war3 li{
+    list-style-type: none;
+      margin: 5px 0 0 
+}
+.letter-war4{
+}
+.letter-war4 li a{
+    text-decoration: none;
+  
+    
+}
+.letter-war4 li{
+    list-style-type: none;
+      margin: 5px 0 0 
+}
+.letter-war3 li a, .letter-war4 li a{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: green;
+    margin-left: 8px
+    
+  
+}
+.letter-war3 li a:hover, .letter-war4 li a:hover{
+    color: darkblue;
+    transition: 0.8s
+}
+.letter-war5{
+    width:400px;
+    height: 50pw;
+    margin: -10px auto 
+    
+}
+.letter-war5 h1{
+    text-align: left;
+    font-size: 24px;
+    font-family: sans-serif
+}
+.letter-war5 p{
+    margin-top: 5px
+}
+.war2 input{
+    margin: 20px 20px;
+    width: 210px
+}
+.fig2{
+    width: 100px;
+    height: 30px;
+    margin: -10px 20px
+}
+.fig2 h1{
+    margin: -26px 9px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px
+}
+.fig3{
+    width: 200px;
+    height: 100px;
+    margin:-60px 160px
+}
+footer{
+    width: 900px;
+    height: 40px;
+    margin-top: 440px;
+    margin-left: 385px
+}
+.left-footer{
+    width: 400px;
+    height: 40px;
+}
+
+.left-footer img{
+    margin: -5px -5px 
+} 
+.left-footer h3{
+    margin: -39px 60px
+}
+.left-footer .img1{
+    margin: -20px 0 0
+}
+.left-footer .img2{
+    margin: 0 4px
+}
+
+.left-footer .img3{
+    margin: 0 0px
+}
+
+.images1{
+    width: 70px;
+height: 20px;
+margin-left: 250px;
+margin-top: 19px;
+padding: 0 10px}
+
+.right-footer{
+    width: 400px;
+    height: 30px;
+    margin-left: auto;
+    margin: -35px 500px
+}
+.right-footer h8{
+    font-size: 10px;
+    margin-left: 80px ;
+    color: gray
+}
+.right-footer h8 a{
+    color: green
+}
+
+
+
+
