@@ -198,7 +198,15 @@ aside{
 
 .text-war1 p{
     margin: -30px 60px;
-    color: red
+}
+.text-war1 p a, .text-war2 p a, .text-war3 p a{
+    color: red;
+    text-decoration: none
+    
+}
+.text-war1 p a:hover, .text-war2 p a:hover, .text-war3 p a:hover{
+    color:forestgreen;
+    transition: 0.8s
 }
 
 .text-war2{
@@ -214,7 +222,6 @@ aside{
 }
 .text-war2 p{
     margin: -30px 60px;
-    color: red
 }
 .text-war3{
 }
@@ -228,7 +235,6 @@ aside{
 
 .text-war3 p{
     margin: -30px 60px;
-    color: red
 }
 
 body{
@@ -324,11 +330,19 @@ body{
     height: 30px;
     margin: -10px 20px
 }
-.fig2 h1{
+.fig2 a h1{
     margin: -26px 9px;
     color: white;
     font-family: sans-serif;
-    font-size: 14px
+    font-size: 14px;
+    
+}
+.fig2 a{
+    text-decoration: none
+}
+.fig2 a h1:hover{
+    color: chartreuse;
+    transition: 0.8s
 }
 .fig3{
     width: 200px;
