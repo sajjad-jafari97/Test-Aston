@@ -1,0 +1,110 @@
+.message, .succes, .error, form span, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+  display: inline-block; }
+
+.succes {
+  border-color: green; }
+
+.error, form span {
+  border-color: red; }
+
+.warning {
+  border-color: yellow; }
+
+#homepage h1 {
+  color: #0269c0; }
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, strong, ul, li,
+form, article, figure, footer, header, nav, section {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: auto;
+  height: 40px;
+  background-color: blue; }
+
+header ul span li{
+  display: block;
+  float: left;
+
+  
+  border-right: 1px solid;
+  
+  padding: 0 40px; }
+
+header ul span li a{
+    color: white;
+    display: block;
+    line-height: 40px;
+    text-decoration: none
+}
+header ul li a:hover {
+  color: red;
+  transition: 0.9s;
+  
+}
+
+
+
+/*header ul li:hover{
+     background-color: black;
+    transition: 0.9s;
+   
+}*/
+
+header ul span li a:hover{
+    background-color: black
+}
+
+
+#ho img {
+  width: 600px;
+  height: 400px;
+  margin-top: 10px}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: monospace; }
+
+.video {
+  width: 35%;
+  margin: 10px auto; }
+
+.class-one, .class-two, .class-three, .class-four {
+  width: 250px;
+  height: 100px;
+  min-height: 150px;
+  margin: auto; }
+
+.class-one {
+  background-color: red; }
+
+.class-two {
+  background-color: green; }
+
+.class-three {
+  background-color: yellow; }
+
+.class-four {
+  background-color: darkblue; }
+
+form input {
+  display: block;
+  width: 400px;
+  height: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background: skyblue;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important; }
+
+/*# sourceMappingURL=style.css.map */

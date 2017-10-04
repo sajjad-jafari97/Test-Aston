@@ -1,0 +1,93 @@
+
+
+ 
+#homepage {
+    h1{
+        color: $primary_color;
+    }
+    
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, strong, ul, li,
+form, article, figure, footer, header,nav, section
+{margin: 0;
+padding: 0}
+
+header {
+   width: auto;
+    height: 40px;
+    background-color: blue;
+   
+}
+header ul a li{
+    display: block;
+    float: left;
+    color: white;
+    border-right: 1px solid;
+    line-height: 40px;
+    padding: 0 40px;
+    
+}
+header ul a li:hover{
+    color: white;
+    transition: 0.9s;
+    background-color:black;
+    font-weight: bold;
+}
+
+#ho img{
+    width: 600px;
+    height: 400px;
+    
+    
+    
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family:monospace;
+}
+.video{
+    width: 35%;
+    margin: 10px auto;
+}
+.class-one, .class-two, .class-three, .class-four{
+    width: 250px;
+    height: 100px;
+    min-height: 150px;
+    margin: auto;
+    
+   
+}
+.class-one{
+    background-color: red;
+}
+
+
+.class-two{
+    background-color: green;
+}
+.class-three{
+    background-color: yellow;
+}
+.class-four{
+    background-color: darkblue;
+}
+form{
+    input{
+        @include form-input();
+    }
+    span{
+        @extend .error;
+    }
+}
+
+
+
+
+
+
+
+
+
