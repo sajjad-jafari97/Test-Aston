@@ -1,0 +1,653 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    height: 100px;
+}
+
+.gutter{
+    position: relative;
+    width: 1280px;
+    height: 60px;
+    left: 140px;
+    top: 20px;
+    font: inherit;
+
+}
+.titre{
+    position: relative;
+    width: 1020px;
+    height: 80px;
+    left: 360px;
+    bottom: 58px;
+    text-align: center;
+
+
+
+
+}
+.search{
+    width:19px;
+    height: 25px;
+
+}
+.human{
+    width:19px;
+    height: 25px;
+}
+.logo{
+    border: none;
+    position: relative;
+    left: 59px;
+    top: 18px;
+
+
+
+}
+#wrap{
+    width: auto;
+    height: 550px;
+    background: url(../images/bannieretop.jpg)  no-repeat;
+    background-size: 1550px 550px
+}
+
+.hero-title{
+    font-size: 48px;
+    font-family: 'Roboto Condensed',sans-serif;
+    color: #39c;
+    font-weight:bold;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    right: 44px
+}
+
+
+.hero-title span{
+    color: #9c3;
+
+
+
+}
+.hero-subtitle{
+    color: #246493;
+    font-family: sans-serif;
+    position: relative;
+    top: 90px;
+    text-align: center
+
+}
+.comparebox{
+    width:700px; 
+    height: 160px;
+    background: rgba(8,30,46,.8);
+    position: relative;
+    left: 420px;
+    top: 180px;
+    border-radius: 10px
+
+}
+.compareboxtitle{
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: relative;
+    top: 35px;
+    right: 100px    
+}
+#mashin{
+    width: 50px;
+    height: 50px
+}
+
+nav ul li {
+    float: left;
+    overflow: hidden;
+    font-size: 15px;
+    display: block;
+    border-right: solid 1px #EEE;
+    padding: 11px 10px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    top: 14px;
+
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight:700;
+    color:#555353;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+li a:hover{
+    text-decoration: none
+}
+
+nav ul li a:hover{
+    color:#47a6f7
+}
+.lolo{
+    width: 300px;
+    height: 60px;
+    position: relative;
+    left: 470px;
+    top: 85px;
+}
+#id-type{
+    height: 50px;
+    width: 280px;
+
+
+}
+#id-type option{
+    background: gray;
+
+}
+
+.sala1{
+    background: #39c;
+    border-bottom-color: #28779f;
+    width: 230px;
+    height: 60px;
+    color: white;
+    position: relative;
+    left: 350px;
+    bottom: 54px;
+}
+button a  {
+    text-decoration:none;
+    color: white
+}
+.flash{
+    width: 320px;
+    height: 430px;
+    position: relative;
+    left: 1050px;
+    bottom: 240px;
+}
+
+.nous{
+    width: auto;
+    height: 600px;
+    background: #28779f
+}
+.nous h1{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    top: 35px;
+    position: relative
+}
+
+.like{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    left: 160px;
+    top: 120px
+}
+.like h2{
+    color: white;
+    font-family:sans-serif;
+    text-align: right;
+    position: relative;
+    right: 20px;
+    bottom: 40px
+}
+.like h4{
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    left: 109px;
+    bottom: 20px
+}
+.hand{
+    width: 60px;
+    height: 60px;
+
+}
+.euro{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    left: 160px;
+    top: 190px
+}
+.money{
+    width: 60px;
+    height: 60px;
+}
+.euro h2{
+    color: white;
+    font-family:sans-sericolor: white;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    bottom: 20pxf;
+    text-align: right;
+    position: relative;
+    right: 10px;
+    bottom: 40px;
+
+}
+.euro h4{
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    left: 109px;
+    bottom: 20px
+
+}
+
+.justice{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    left: 850px;
+    bottom: 184px
+}
+
+.justice i{
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+   left: 10px;
+ 
+    background: #28779f
+}
+.dadgah{
+  
+ 
+}
+.justice h2{
+    color: white;
+    font-family:sans-sericolor: white;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+
+    text-align: right;
+    position: relative;
+    right: 55px;
+    bottom: 25px;
+}
+.justice h4{
+    color: white;
+    font-family: sans-serif;
+    text-align width: 60px;
+    height: 60px;: left;
+    position: relative;
+    left: 119px;
+    bottom: 20px
+
+
+}
+.love{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    left: 850px;
+    bottom: 120px;
+
+
+}
+.heart{
+    width: 65px;
+    height: 65px;
+}
+.love h2{
+    color: white;
+    font-family:sans-sericolor: white;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    bottom: 20pxf;
+    text-align: right;
+    position: relative;
+    right: 55px;
+    bottom: 40px;
+
+}
+.love h4{
+    color: white;
+    font-family: sans-serif;
+    text-align width: 60px;
+    height: 60px;: left;
+    position: relative;
+    left: 119px;
+    bottom: 20px
+
+}
+
+.letters{
+    width: auto;
+    height: 900px;
+    background-color:#e6d7d7
+}
+.frist{
+    width: 450px;
+    height: 770px;
+    background: white;
+    position: relative;
+    left: 130px;
+    top: 40px;
+    border-radius: 10px
+}
+.frist h2{
+    font-family: sans-serif;
+    color:darkblue;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    right: 34px 
+}
+
+.frist h4{
+    color: #514a4a;
+    font-family: sans-serif;
+    position: relative;
+    top: 65px;
+    margin:  0 38px
+}
+
+.frist h3{
+    color: #4370cc;
+    font-family:sans-serif;
+    position: relative;
+    top: 100px;
+    left: 35px
+
+
+}
+.second{
+    width: 750px;
+    height: 700px;
+    background: white;
+    position: relative;
+    left: 530px;
+    bottom: 518px;
+    border-radius: 10px
+
+}
+.second h2{
+    font-family: sans-serif;
+    color:darkblue;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    right: 9px
+}
+.second h3{
+    color: #4370cc;
+    font-family:sans-serif;
+    position: relative;
+    top: 100px;
+    left: 35px;
+}
+.middle{
+    width: auto;
+    height: 350px;
+    background: #28779f;
+}
+.letters12{
+    width: 500px;
+    height: 120px;
+    position: relative;
+    left: 600px;
+    top: 50px;
+}
+.letters12 h2{
+    color: white;
+    font-family:serif;
+    font-weight: 100;
+
+}
+.letters12 h2 span{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white
+}
+.next{
+    width: 700px;
+    height: 170px;
+    background: rgba(8,30,46,.8);
+    position: relative;
+    left: 590px;
+    top: 25px
+}
+.middle-di{
+    width: 700px;
+    height: 300px;
+}
+.button22{
+    background: #39c;
+    border-bottom-color: #28779f;
+    width: 260px;
+    height: 60px;
+    color: white;
+    position: relative;
+    left: 59px;
+    top: 66px
+}
+#type{
+    height: 50px;
+    width: 310px;
+    position: relative;
+    top: 62px;
+    left: 45px;
+}
+#type option{
+    background: gray;
+
+}
+.cat{
+    width: 250px;
+    height: 430px;
+    position: relative;
+    left: 390px;
+    bottom: 370px
+}
+.written{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    bottom: 670px;
+    left: 140px
+}
+.written h2{
+    color: white;
+    font-family: sans-serif;
+}
+.written h2 span{
+    color: #81c627
+
+}
+.written p{
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 50px
+}
+.written p span{
+    font-size: 40px;
+    color: white;
+    position: relative;
+
+}
+.stars{
+    width: 400px;
+    height: 100px;
+    position: relative;
+    bottom: 700px;
+    left: 120px
+}
+.stars ul li{
+
+    display: block;
+    float: left;
+    margin: 0 10px
+
+}
+.stars ul li img{
+    width: 40px;
+    height: 40px;
+
+
+}
+
+#footer{
+    width: auto;
+    height: 650px;
+    background: #326FEA;
+}
+
+.left {
+    width: 600px;
+    height: 200px;
+    position: relative;
+    top: 60px;
+    left: 90px
+}
+.left h1{
+    color: white;
+    font-family: sans-serif;
+
+}
+.left ul li{
+    list-style-type: none;
+    padding: 10px;
+
+}
+.left ul li a{
+
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif
+}
+.left ul li a:hover{
+    text-decoration: underline
+}
+
+.right{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    margin-left: auto;
+    bottom: 141px;
+    right: 99px
+}
+.right h1{
+    color: white;
+    font-family: sans-serif;
+
+}
+.right ul li{
+    list-style-type: none;
+    padding: 10px;
+
+}
+.right ul li a{
+
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif
+}
+.right ul li a:hover{
+    text-decoration: underline
+}
+
+#footer h2{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50px
+}
+#footer h2 span{
+    color: #81c627 
+}
+.contain{
+    height: 50px;
+    margin-left: 580px;
+    margin-top: 100px
+}
+
+.icon{
+    height: 45px;
+    width: 50px;
+    background:aqua;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+
+    padding-top: 10px;
+}
+
+.icon:hover{
+    color: red;
+    background: white;
+}
+.icon i.bar4:hover{
+    color: red
+}
+
+.icon i.bar3:hover{
+    color: aqua;
+
+}
+.icon i.bar2:hover{
+    color: blue
+}
+.icon i.bar1:hover{
+    color: darkblue
+}
+.paeen{
+    width: 300px;
+    height: 100px;
+    position:relative;
+    bottom:200px;
+    left: 400px
+}
+.paeen2{
+    width: 300px;
+    height: 100px
+        text-align:right; 
+    position:relative;
+    bottom:200px;
+    left: 340px
+}
+#footer h6{
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    top: 80px;
+    text-align: center
+}
