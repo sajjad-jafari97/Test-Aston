@@ -100,9 +100,11 @@ body{
 
 
 .text1-art1 h1{
-    position: relative;
-    top: 30px;
-    color: #31383B
+    padding-top: 20px;
+    color: #31383B;
+    font-size: 20px;
+    text-align: left
+    
 }
 
 
